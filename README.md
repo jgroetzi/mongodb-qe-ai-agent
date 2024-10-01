@@ -72,6 +72,9 @@ Before you begin, make sure you have the following:
    pip install pymongo bson langchain-core langchain-ollama
    ```
 
+   This example uses AWS for key management, you can use local or other cloud
+   providers. [See the procedures here](https://www.mongodb.com/docs/manual/core/queryable-encryption/qe-create-cmk/#procedure)
+
 3. **Set Environment Variables**
 
    Configure your environment with the necessary variables. For example:
